@@ -6,9 +6,8 @@ Une application Flutter de salle d'attente refactorisée dans le cadre du **Work
 
 | Document | Description |
 |----------|-------------|
-| [`Compte_rendu_Workshop2.pdf`](docs/Compte_rendu_Workshop2.pdf) | Compte rendu du Workshop 2 (setState) |
 | [`Compte_rendu_Workshop3.pdf`](docs/Compte_rendu_Workshop3.pdf) | Compte rendu du Workshop 3 – **Trace d'exécution** (Provider & TDD) |
-| [`Workshop3_AI_Summary.md`](docs/Workshop3_AI_Summary.md) | Résumé de la session AI (Claude Sonnet) |
+| [📎 Prompts importants et résumé des étapes du Workshop 3 (PDF)](file:///D:/Prompts%20importants%20et%20r%C3%A9sum%C3%A9%20des%20%C3%A9tapes%20du%20workshop3.pdf) | Prompts importants et résumé des étapes du Workshop 3 |
 
 ## 🚀 Démarrage rapide
 
@@ -43,9 +42,7 @@ flutter run
 ```
 waiting_room_app/
 ├── docs/                              # Documentation du projet
-│   ├── Compte_rendu_Workshop2.pdf
-│   ├── Compte_rendu_Workshop3.pdf     ← Trace d'exécution Workshop 3
-│   └── Workshop3_AI_Summary.md
+│   └── Compte_rendu_Workshop3.pdf     ← Trace d'exécution Workshop 3
 ├── lib/                               # Code source Dart
 │   ├── main.dart                      # UI avec Provider (StatelessWidget)
 │   └── queue_provider.dart            # QueueProvider (ChangeNotifier)
